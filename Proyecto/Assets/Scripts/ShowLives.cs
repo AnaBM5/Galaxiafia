@@ -17,6 +17,6 @@ public class ShowLives : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lives.text = "Vidas: " + livesAmount.ToString();
+        lives.text = "Vidas: \n" + livesAmount.ToString();
     }
 }
