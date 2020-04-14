@@ -25,6 +25,7 @@ public class playerScore : MonoBehaviour
         playerName = nameText.text;
         PostToDataBase();
     }
+    
     private void PostToDataBase()
     {
         user user = new user();
