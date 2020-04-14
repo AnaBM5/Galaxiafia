@@ -1,17 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChooseOption : MonoBehaviour
 {
     private Vector2 initialPosition;
     private Vector2 rightAnswer;
     private Vector2 wrongAnswer;
+    public GameObject perdiste;
+    public GameObject principal;
 
     // Start is called before the first frame update
     void Start()
     {
-        initialPosition = transform.position;
+        perdiste.SetActive(false);
+        initialPosition = transform.position;        
+        ShowLives.livesAmount = 3;
     }
 
     // Update is called once per frame
@@ -30,9 +35,9 @@ public class ChooseOption : MonoBehaviour
             WrongAnswer();
         }
     }
-    public void onClick()
+    public void onClickAgain()
     {
-
+        SceneManager.LoadScene("SampleScene");
     }
 
     void RightAnswer()
@@ -48,12 +53,20 @@ public class ChooseOption : MonoBehaviour
         transform.position = initialPosition;
         if (ShowLives.livesAmount <= 0)
         {
-            KillPlayer();
+            KillPlayer();          
+            
         }
     }
+    
+    
 
     void KillPlayer()
     {
-        Destroy(this.gameObject);
+        perdiste.SetActive(true);
+        principal.SetActive(false);
+        
+               
+        
+
     }
 }
