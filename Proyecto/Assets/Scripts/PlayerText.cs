@@ -15,10 +15,14 @@ public class PlayerText : MonoBehaviour
     public static string pregunta;
     public static string correcta;
     public static string incorrecta;
+    System.Random r = new System.Random();
+    public int which;
     Questions question = new Questions();
     // Start is called before the first frame update
     void Start()
     {
+        
+        which = r.Next(1,8);
         GetText();
     }
     public void GetText()
@@ -27,12 +31,17 @@ public class PlayerText : MonoBehaviour
     }
     private void RetrieveFromDatabase()
     {
-        RestClient.Get<Questions>("https://preguntas-13b3b.firebaseio.com/1.json").Then(response =>
+        RestClient.Get<Questions>("https://preguntas-13b3b.firebaseio.com/"+which+".json").Then(response =>
         {
             question= response;
             UpdateText();
         });
         
+    }
+    public void NextButton()
+    {
+        which = r.Next(1, 8);
+        GetText();
     }
 
     // Update is called once per frame
