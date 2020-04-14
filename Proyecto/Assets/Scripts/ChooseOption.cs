@@ -5,7 +5,9 @@ using UnityEngine;
 public class ChooseOption : MonoBehaviour
 {
     private Vector2 initialPosition;
-    
+    private Vector2 rightAnswer;
+    private Vector2 wrongAnswer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,10 @@ public class ChooseOption : MonoBehaviour
         {
             WrongAnswer();
         }
+    }
+    public void onClick()
+    {
+
     }
 
     void RightAnswer()

@@ -11,6 +11,8 @@ public class PlayerText : MonoBehaviour
     public TextMeshProUGUI QuestionText;
     public TextMeshProUGUI CorrectText;
     public TextMeshProUGUI IncorrectText;
+    private Vector2 rightAnswer;
+    private Vector2 wrongAnswer;
     public static string usada;
     public static string pregunta;
     public static string correcta;
@@ -42,6 +44,19 @@ public class PlayerText : MonoBehaviour
     {
         which = r.Next(1, 8);
         GetText();
+        randomAnswer();
+    }
+    public void randomAnswer()
+    {
+        rightAnswer = CorrectText.rectTransform.position;
+        wrongAnswer = IncorrectText.rectTransform.position;
+        System.Random o = new System.Random();
+        int cambia = o.Next(2);
+        if (cambia == 0)
+        {
+            CorrectText.rectTransform.SetPositionAndRotation(wrongAnswer, CorrectText.rectTransform.rotation);
+            IncorrectText.rectTransform.SetPositionAndRotation(rightAnswer, IncorrectText.rectTransform.rotation);
+        }
     }
 
     // Update is called once per frame
