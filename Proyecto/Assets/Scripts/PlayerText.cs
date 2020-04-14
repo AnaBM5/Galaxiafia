@@ -16,13 +16,13 @@ public class PlayerText : MonoBehaviour
     public static string correcta;
     public static string incorrecta;
     System.Random r = new System.Random();
-    public int which;
+    private int which;
     Questions question = new Questions();
     // Start is called before the first frame update
     void Start()
     {
         
-        which = r.Next(1,8);
+        which = r.Next(1,10);
         GetText();
     }
     public void GetText()
