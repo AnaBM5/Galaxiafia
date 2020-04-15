@@ -22,12 +22,15 @@ public class PlayerController : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = new Vector2(mousePosition.x, mousePosition.y);
+	    if(!ChooseOption.answered){
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            transform.position = new Vector2(mousePosition.x, mousePosition.y);
+	    }
     }
 
     private void OnMouseUp()
     {
         transform.position = initialPosition;
+	    ChooseOption.answered = false;
     }
 }

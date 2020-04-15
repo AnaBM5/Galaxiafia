@@ -11,6 +11,7 @@ public class ChooseOption : MonoBehaviour
     public GameObject perdiste;
     public GameObject principal;
     private PlayerText nextQuestions;
+    public static bool answered = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class ChooseOption : MonoBehaviour
         perdiste.SetActive(false);
         initialPosition = transform.position;        
         ShowLives.livesAmount = 3;
+        ShowScore.scoreValue = 0;
     }
 
     // Update is called once per frame
@@ -31,11 +33,10 @@ public class ChooseOption : MonoBehaviour
     {
         if (other.CompareTag("RightOption"))
         {
-            transform.position = initialPosition;
             RightAnswer();
+            
         }else if (other.CompareTag("WrongOption"))
-        {
-            transform.position = initialPosition;
+        {   
             WrongAnswer();
         }
     }
@@ -46,14 +47,18 @@ public class ChooseOption : MonoBehaviour
 
     void RightAnswer()
     {
-        ShowScore.scoreValue += 10;        
+        ShowScore.scoreValue += 10;    
+	    answered = true;
+	    transform.position = initialPosition;    
         nextQuestions = FindObjectOfType<PlayerText>();
         nextQuestions.NextButton();
     }
 
     void WrongAnswer()
     {
-        ShowLives.livesAmount--;        
+        ShowLives.livesAmount--; 
+	    answered = true;
+	    transform.position = initialPosition;       
         
         if (ShowLives.livesAmount <= 0)
         {
