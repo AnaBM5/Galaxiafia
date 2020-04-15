@@ -24,7 +24,7 @@ public class PlayerText : MonoBehaviour
     void Start()
     {
         
-        which = r.Next(1,10);
+        which = r.Next(1,30);
         GetText();
     }
     public void GetText()

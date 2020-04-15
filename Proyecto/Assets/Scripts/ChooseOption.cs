@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -20,6 +21,7 @@ public class ChooseOption : MonoBehaviour
         perdiste.SetActive(false);
         initialPosition = transform.position;        
         ShowLives.livesAmount = 3;
+        ShowScore.scoreValue = 0;
     }
 
     // Update is called once per frame
@@ -41,7 +43,8 @@ public class ChooseOption : MonoBehaviour
     }
     public void onClickAgain()
     {
-        SceneManager.LoadScene("SampleScene");
+        
+        SceneManager.LoadScene("Game");
     }
 
     void RightAnswer()

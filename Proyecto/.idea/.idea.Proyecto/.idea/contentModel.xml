@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+<<<<<<< HEAD
+    <e p="C:\Users\ricar\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ricar\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Proyecto.-93033993.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ricar\Desktop\Universidad\ProyectoIntegrador2020\ProyectoIntegrador-2020-1\Proyecto" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="FacebookSDK" t="Include">
+          <e p="Examples" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ConsoleBase.cs" t="Include" />
+              <e p="LogView.cs" t="Include" />
+              <e p="MenuBase.cs" t="Include" />
+              <e p="SubMenus" t="Include">
+                <e p="AccessTokenMenu.cs" t="Include" />
+                <e p="AppEvents.cs" t="Include" />
+                <e p="AppLinks.cs" t="Include" />
+                <e p="AppRequests.cs" t="Include" />
+                <e p="DialogShare.cs" t="Include" />
+                <e p="GraphRequest.cs" t="Include" />
+                <e p="MainMenu.cs" t="Include" />
+                <e p="Pay.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="link.xml" t="Include" />
+        </e>
+=======
     <e p="C:\Users\anabm\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\anabm\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Proyecto.-584378342.00" t="ExcludeRecursive" />
     <e p="C:\Users\anabm\Documents\ProyectoIntegrador\Proyecto" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
         <e p="PlayFabEditorExtensions" t="Include">
           <e p="Editor" t="Include">
             <e p="PlayFabEditor.cs" t="Include" />
@@ -245,6 +273,10 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="playerScore.cs" t="Include" />
           <e p="PlayerText.cs" t="Include" />
+<<<<<<< HEAD
+          <e p="PlayfabFacebookAuthExample.cs" t="Include" />
+=======
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
           <e p="Questions.cs" t="Include" />
           <e p="ScrollScript.cs" t="Include" />
           <e p="ShowLives.cs" t="Include" />
@@ -280,16 +312,13 @@
           </e>
         </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="PlayFab.csproj" t="IncludeRecursive" />
       <e p="PlayFabEditorExtensions.csproj" t="IncludeRecursive" />
       <e p="PlayFabSDKEditor.csproj" t="IncludeRecursive" />
       <e p="Proyecto.sln" t="IncludeFlat" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

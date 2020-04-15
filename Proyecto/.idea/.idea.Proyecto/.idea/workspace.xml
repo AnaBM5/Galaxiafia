@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="701424f4-a521-4a78-9ca4-44c8d50a6595" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Welcome-Login.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Welcome-Login.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +31,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CanvasToWorld.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="208">
+=======
+            <state relative-caret-position="150">
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
               <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
-                <marker date="1583597037793" expanded="false" signature="6:78" ph="..." />
-                <marker date="1583597037793" expanded="true" signature="122:494" ph="{...}" />
-                <marker date="1583597037793" expanded="true" signature="230:365" ph="{...}" />
-                <marker date="1583597037793" expanded="true" signature="423:444" ph="{...}" />
-                <marker date="1583597037793" expanded="true" signature="471:492" ph="{...}" />
+                <marker date="1583968757935" expanded="false" signature="6:78" ph="..." />
+                <marker date="1583968757935" expanded="true" signature="122:494" ph="{...}" />
+                <marker date="1583968757935" expanded="true" signature="230:365" ph="{...}" />
+                <marker date="1583968757935" expanded="true" signature="423:444" ph="{...}" />
+                <marker date="1583968757935" expanded="true" signature="471:492" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -33,6 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChooseOption.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-534">
               <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
@@ -69,6 +88,43 @@
                 <marker date="1586911654807" expanded="true" signature="1215:1695" ph="{...}" />
                 <marker date="1586911654807" expanded="true" signature="1443:1689" ph="{...}" />
                 <marker date="1586911654807" expanded="true" signature="1765:1921" ph="{...}" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="930">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+              <folding>
+                <marker date="1586909326606" expanded="false" signature="6:113" ph="..." />
+                <marker date="1586909326606" expanded="true" signature="156:1775" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="435:627" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="685:706" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="759:1051" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="810:907" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="948:1045" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="1082:1141" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="1165:1313" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="1337:1581" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="1433:1502" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="1515:1575" ph="{...}" />
+                <marker date="1586909326606" expanded="true" signature="1614:1773" ph="{...}" />
+=======
+            <state relative-caret-position="512">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding>
+                <marker date="1586914127977" expanded="false" signature="6:113" ph="..." />
+                <marker date="1586914127977" expanded="true" signature="156:1862" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="476:668" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="726:747" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="800:1008" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="851:911" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="952:1002" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="1039:1098" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="1122:1335" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="1359:1668" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="1520:1589" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="1602:1662" ph="{...}" />
+                <marker date="1586914127977" expanded="true" signature="1701:1860" ph="{...}" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
               </folding>
             </state>
           </provider>
@@ -77,13 +133,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShowLives.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="304">
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="240">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1583618666481" expanded="false" signature="6:91" ph="..." />
-                <marker date="1583618666481" expanded="true" signature="131:474" ph="{...}" />
-                <marker date="1583618666481" expanded="true" signature="282:343" ph="{...}" />
-                <marker date="1583618666481" expanded="true" signature="401:472" ph="{...}" />
+                <marker date="1583968757939" expanded="false" signature="6:91" ph="..." />
+                <marker date="1583968757939" expanded="true" signature="131:474" ph="{...}" />
+                <marker date="1583968757939" expanded="true" signature="282:343" ph="{...}" />
+                <marker date="1583968757939" expanded="true" signature="401:472" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayfabFacebookAuthExample.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+=======
+            <state relative-caret-position="256">
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
+              <folding>
+                <marker date="1586917874182" expanded="true" signature="81:212" ph="..." />
+                <marker date="1586917874182" expanded="true" signature="269:3204" ph="{...}" />
+                <marker date="1586917874182" expanded="true" signature="387:713" ph="{...}" />
+                <marker date="1586917874182" expanded="true" signature="755:1147" ph="{...}" />
+                <marker date="1586917874182" expanded="true" signature="1205:2261" ph="{...}" />
+                <marker date="1586917874182" expanded="true" signature="1369:2040" ph="{...}" />
+                <marker date="1586917874182" expanded="true" signature="1534:1794" ph="/* We proceed with making a call to PlayFab API. We pass in current Facebook AccessToken and let it create ... */" />
+                <marker date="1586917874182" expanded="true" signature="2053:2255" ph="{...}" />
+                <marker date="1586917874182" expanded="true" signature="2419:2526" ph="{...}" />
+                <marker date="1586917874182" expanded="true" signature="2592:2694" ph="{...}" />
+                <marker date="1586917874182" expanded="true" signature="2758:2901" ph="{...}" />
+                <marker date="1586917874182" expanded="true" signature="2926:3202" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,6 +195,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="150">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <folding>
+                <marker date="1583968757938" expanded="false" signature="6:78" ph="..." />
+                <marker date="1583968757938" expanded="true" signature="125:687" ph="{...}" />
+                <marker date="1583968757938" expanded="true" signature="272:330" ph="{...}" />
+                <marker date="1583968757938" expanded="true" signature="388:400" ph="{...}" />
+                <marker date="1583968757938" expanded="true" signature="432:597" ph="{...}" />
+                <marker date="1583968757938" expanded="true" signature="627:685" ph="{...}" />
+=======
             <state relative-caret-position="138">
               <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
@@ -117,6 +216,7 @@
                 <marker date="1586914149962" expanded="true" signature="432:645" ph="{...}" />
                 <marker date="1586914149962" expanded="true" signature="470:639" ph="{...}" />
                 <marker date="1586914149962" expanded="true" signature="675:769" ph="{...}" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
               </folding>
             </state>
           </provider>
@@ -128,11 +228,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShowScore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChooseOption.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CanvasToWorld.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayfabFacebookAuthExample.cs" root0="FORCE_HIGHLIGHTING" />
+=======
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChooseOption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CanvasToWorld.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShowScore.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShowLives.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -142,6 +250,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShowScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CanvasToWorld.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShowLives.cs" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChooseOption.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrollScript.cs" />
@@ -151,6 +260,20 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="549" />
     <option name="y" value="25" />
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayfabFacebookAuthExample.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChooseOption.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="585" />
+    <option name="y" value="33" />
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
     <option name="width" value="805" />
     <option name="height" value="735" />
   </component>
@@ -160,34 +283,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
       <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+<<<<<<< HEAD
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+=======
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -209,12 +331,14 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -231,12 +355,28 @@
       <workItem from="1583557191245" duration="2981000" />
       <workItem from="1583590663901" duration="4903000" />
       <workItem from="1583618234639" duration="987000" />
+<<<<<<< HEAD
       <workItem from="1586913826849" duration="5038000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1586917176683" duration="1341000" />
+=======
+      <workItem from="1586913826849" duration="1022000" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="13909000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="10212000" />
+=======
+    <option name="totallyTimeSpent" value="9893000" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,9 +388,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14901665" />
+=======
+<<<<<<< HEAD
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14889336" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14901665" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -314,7 +467,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -359,31 +512,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CanvasToWorld.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="208">
+=======
+        <state relative-caret-position="150">
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
-            <marker date="1583597037793" expanded="false" signature="6:78" ph="..." />
-            <marker date="1583597037793" expanded="true" signature="122:494" ph="{...}" />
-            <marker date="1583597037793" expanded="true" signature="230:365" ph="{...}" />
-            <marker date="1583597037793" expanded="true" signature="423:444" ph="{...}" />
-            <marker date="1583597037793" expanded="true" signature="471:492" ph="{...}" />
+            <marker date="1583968757935" expanded="false" signature="6:78" ph="..." />
+            <marker date="1583968757935" expanded="true" signature="122:494" ph="{...}" />
+            <marker date="1583968757935" expanded="true" signature="230:365" ph="{...}" />
+            <marker date="1583968757935" expanded="true" signature="423:444" ph="{...}" />
+            <marker date="1583968757935" expanded="true" signature="471:492" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChooseOption.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+          <folding>
+            <marker date="1586909326606" expanded="false" signature="6:113" ph="..." />
+            <marker date="1586909326606" expanded="true" signature="156:1775" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="435:627" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="685:706" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="759:1051" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="810:907" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="948:1045" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="1082:1141" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="1165:1313" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="1337:1581" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="1433:1502" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="1515:1575" ph="{...}" />
+            <marker date="1586909326606" expanded="true" signature="1614:1773" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShowLives.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="304">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="150">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <marker date="1583968757938" expanded="false" signature="6:78" ph="..." />
+            <marker date="1583968757938" expanded="true" signature="125:687" ph="{...}" />
+            <marker date="1583968757938" expanded="true" signature="272:330" ph="{...}" />
+            <marker date="1583968757938" expanded="true" signature="388:400" ph="{...}" />
+            <marker date="1583968757938" expanded="true" signature="432:597" ph="{...}" />
+            <marker date="1583968757938" expanded="true" signature="627:685" ph="{...}" />
+=======
+        <state relative-caret-position="256">
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <marker date="1583618666481" expanded="false" signature="6:91" ph="..." />
             <marker date="1583618666481" expanded="true" signature="131:474" ph="{...}" />
             <marker date="1583618666481" expanded="true" signature="282:343" ph="{...}" />
             <marker date="1583618666481" expanded="true" signature="401:472" ph="{...}" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ShowLives.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1583968757939" expanded="false" signature="6:91" ph="..." />
+            <marker date="1583968757939" expanded="true" signature="131:474" ph="{...}" />
+            <marker date="1583968757939" expanded="true" signature="282:343" ph="{...}" />
+            <marker date="1583968757939" expanded="true" signature="401:472" ph="{...}" />
+=======
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -396,10 +602,30 @@
             <marker date="1586914149962" expanded="true" signature="432:645" ph="{...}" />
             <marker date="1586914149962" expanded="true" signature="470:639" ph="{...}" />
             <marker date="1586914149962" expanded="true" signature="675:769" ph="{...}" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayfabFacebookAuthExample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding>
+            <marker date="1586917874182" expanded="true" signature="81:212" ph="..." />
+            <marker date="1586917874182" expanded="true" signature="269:3204" ph="{...}" />
+            <marker date="1586917874182" expanded="true" signature="387:713" ph="{...}" />
+            <marker date="1586917874182" expanded="true" signature="755:1147" ph="{...}" />
+            <marker date="1586917874182" expanded="true" signature="1205:2261" ph="{...}" />
+            <marker date="1586917874182" expanded="true" signature="1369:2040" ph="{...}" />
+            <marker date="1586917874182" expanded="true" signature="1534:1794" ph="/* We proceed with making a call to PlayFab API. We pass in current Facebook AccessToken and let it create ... */" />
+            <marker date="1586917874182" expanded="true" signature="2053:2255" ph="{...}" />
+            <marker date="1586917874182" expanded="true" signature="2419:2526" ph="{...}" />
+            <marker date="1586917874182" expanded="true" signature="2592:2694" ph="{...}" />
+            <marker date="1586917874182" expanded="true" signature="2758:2901" ph="{...}" />
+            <marker date="1586917874182" expanded="true" signature="2926:3202" ph="{...}" />
+=======
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChooseOption.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-534">
@@ -427,10 +653,27 @@
         <state relative-caret-position="288">
           <caret line="21" column="66" lean-forward="true" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
           <folding>
+<<<<<<< HEAD
             <marker date="1586922646288" expanded="false" signature="6:92" ph="..." />
             <marker date="1586922646288" expanded="true" signature="135:682" ph="{...}" />
             <marker date="1586922646288" expanded="true" signature="441:680" ph="{...}" />
             <marker date="1586922646288" expanded="true" signature="615:674" ph="{...}" />
+=======
+            <marker date="1586914127977" expanded="false" signature="6:113" ph="..." />
+            <marker date="1586914127977" expanded="true" signature="156:1862" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="476:668" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="726:747" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="800:1008" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="851:911" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="952:1002" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="1039:1098" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="1122:1335" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="1359:1668" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="1520:1589" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="1602:1662" ph="{...}" />
+            <marker date="1586914127977" expanded="true" signature="1701:1860" ph="{...}" />
+>>>>>>> 6846a4aac8aed95d4b561d1c04a4c286b51a95a5
+>>>>>>> 3f9c1b7a9498728e369126b8bffe2a1f18f9c68f
           </folding>
         </state>
       </provider>
