@@ -42,7 +42,7 @@ public class PlayerText : MonoBehaviour
     }
     public void NextButton()
     {
-        which = r.Next(1, 8);
+        which = r.Next(1, 22);
         GetText();
         randomAnswer();
     }
