@@ -20,6 +20,7 @@ public class ChooseOption : MonoBehaviour
         perdiste.SetActive(false);
         initialPosition = transform.position;        
         ShowLives.livesAmount = 3;
+        ShowScore.scoreValue = 0;
     }
 
     // Update is called once per frame
