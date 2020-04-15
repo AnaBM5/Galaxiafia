@@ -246,6 +246,7 @@
           <e p="playerScore.cs" t="Include" />
           <e p="PlayerText.cs" t="Include" />
           <e p="Questions.cs" t="Include" />
+          <e p="ScrollScript.cs" t="Include" />
           <e p="ShowLives.cs" t="Include" />
           <e p="ShowScore.cs" t="Include" />
           <e p="User.cs" t="Include" />
