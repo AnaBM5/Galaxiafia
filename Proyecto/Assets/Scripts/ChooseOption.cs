@@ -46,6 +46,10 @@ public class ChooseOption : MonoBehaviour
         
         SceneManager.LoadScene("Game");
     }
+    public void onclickMenu()
+    {
+        SceneManager.LoadScene("menu", LoadSceneMode.Single);
+    }
 
     void RightAnswer()
     {

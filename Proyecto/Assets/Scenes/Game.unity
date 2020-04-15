@@ -835,8 +835,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 406969638}
-        m_MethodName: NextButton
+      - m_Target: {fileID: 209319465}
+        m_MethodName: onclickMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
