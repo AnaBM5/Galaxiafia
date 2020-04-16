@@ -79,7 +79,7 @@ public class ChooseOption : MonoBehaviour
     
     
 
-    void KillPlayer()
+    public void KillPlayer()
     {
         this.gameObject.SetActive(false);
         perdiste.SetActive(true);
