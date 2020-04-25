@@ -10,6 +10,7 @@ public class barTime : MonoBehaviour
     private void doit()
     {
         GameOver = FindObjectOfType<ChooseOption>();
+        GameOver.Losetext.text = "TIEMPO";
         GameOver.KillPlayer();
     }
     // Start is called before the first frame update

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,8 @@ public class ChooseOption : MonoBehaviour
     public GameObject perdiste;
     public GameObject principal;
     private PlayerText nextQuestions;
+    public TextMeshProUGUI Losetext;
+    public TextMeshProUGUI scoreFinal;
     public static bool answered = false;
 
     // Start is called before the first frame update
@@ -81,6 +84,7 @@ public class ChooseOption : MonoBehaviour
 
     public void KillPlayer()
     {
+        scoreFinal.text = "Puntuacion: " + ShowScore.scoreValue;
         this.gameObject.SetActive(false);
         perdiste.SetActive(true);
         principal.SetActive(false);
