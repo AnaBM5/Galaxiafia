@@ -9,10 +9,20 @@ using TMPro;
 public class ButtonManager : MonoBehaviour
 {
     public TextMeshProUGUI xd;
-    public void onclickOnMouseUp()
+    public void onclickOnMouseUpGame()
     {
         
         SceneManager.LoadScene("Game", LoadSceneMode.Single);
+    }
+    public void onclickOnMouseUpLeaderboard()
+    {
+        
+        SceneManager.LoadScene("LeaderBoard", LoadSceneMode.Single);
+    }
+    public void onclickOnMouseUpMenu()
+    {
+        
+        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
     public void onclickReglas()
     {
