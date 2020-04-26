@@ -4,6 +4,7 @@ using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine;
 using LoginResult = PlayFab.ClientModels.LoginResult;
+using UnityEngine.SceneManagement;
 
 public class PlayfabFacebookAuthExample : MonoBehaviour
 {
@@ -44,6 +45,7 @@ public class PlayfabFacebookAuthExample : MonoBehaviour
              */
             PlayFabClientAPI.LoginWithFacebook(new LoginWithFacebookRequest { CreateAccount = true, AccessToken = AccessToken.CurrentAccessToken.TokenString},
                 OnPlayfabFacebookAuthComplete, OnPlayfabFacebookAuthFailed);
+            SceneManager.LoadScene(0);
         }
         else
         {
