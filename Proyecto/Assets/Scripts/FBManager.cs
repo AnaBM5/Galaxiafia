@@ -13,11 +13,11 @@ public class FBManager : MonoBehaviour {
 
 	void Awake ()
 	{
-		if (!FB.IsInitialized) {
+		/*if (!FB.IsInitialized) {
 			FB.Init(InitCallback, OnHideUnity);
 		} else {
 			FB.ActivateApp();
-		}
+		}*/
 	}
 
 	private void InitCallback ()

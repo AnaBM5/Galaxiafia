@@ -328,7 +328,8 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="playerScore.cs" t="Include" />
           <e p="PlayerText.cs" t="Include" />
-          <e p="PlayfabFacebookAuthExample.cs" t="Include" />
+          <e p="PlayfabController.cs" t="Include" />
+          <e p="PlayfabsScore.cs" t="Include" />
           <e p="Questions.cs" t="Include" />
           <e p="ScrollScript.cs" t="Include" />
           <e p="ShowLives.cs" t="Include" />

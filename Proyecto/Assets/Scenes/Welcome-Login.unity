@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 133157549}
   - component: {fileID: 133157548}
   m_Layer: 0
-  m_Name: PlayfabFacebookAuthExample
+  m_Name: PlayfabController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -307,6 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9d0a3675817e7c498f46218e33fd87a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntuacion: 0
 --- !u!4 &133157549
 Transform:
   m_ObjectHideFlags: 0

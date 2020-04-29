@@ -1,15 +1,42 @@
 ﻿// Import statements introduce all the necessary classes for this example.
+
+using System;
 using Facebook.Unity;
 using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine;
 using LoginResult = PlayFab.ClientModels.LoginResult;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
-public class PlayfabFacebookAuthExample : MonoBehaviour
+public class PlayfabController : MonoBehaviour
 {
     // holds the latest message to be displayed on the screen
     private string _message;
+    public int puntuacion;
+    public static PlayfabController PFC;
+    
+    
+    
+
+
+    private void OnEnable()
+    {
+        if (PlayfabController.PFC == null)
+        {
+            PlayfabController.PFC = this;
+        }
+        else
+        {
+            if (PlayfabController.PFC != this)
+            {
+                Destroy(this.gameObject);
+            }
+        }
+        DontDestroyOnLoad(this.gameObject);
+
+    }
+    
 
     public void Start()
     {
@@ -45,7 +72,7 @@ public class PlayfabFacebookAuthExample : MonoBehaviour
              */
             PlayFabClientAPI.LoginWithFacebook(new LoginWithFacebookRequest { CreateAccount = true, AccessToken = AccessToken.CurrentAccessToken.TokenString},
                 OnPlayfabFacebookAuthComplete, OnPlayfabFacebookAuthFailed);
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1); 
         }
         else
         {
@@ -57,6 +84,7 @@ public class PlayfabFacebookAuthExample : MonoBehaviour
     // When processing both results, we just set the message, explaining what's going on.
     private void OnPlayfabFacebookAuthComplete(LoginResult result)
     {
+        
         SetMessage("PlayFab Facebook Auth Complete. Session ticket: " + result.SessionTicket);
     }
 
@@ -80,4 +108,5 @@ public class PlayfabFacebookAuthExample : MonoBehaviour
         var area = new Rect(0,0,Screen.width,Screen.height);
         GUI.Label(area, _message,style);
     }
+  
 }
