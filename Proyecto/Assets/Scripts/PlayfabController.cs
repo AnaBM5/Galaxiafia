@@ -8,6 +8,7 @@ using UnityEngine;
 using LoginResult = PlayFab.ClientModels.LoginResult;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 public class PlayfabController : MonoBehaviour
 {
@@ -108,5 +109,10 @@ public class PlayfabController : MonoBehaviour
         var area = new Rect(0,0,Screen.width,Screen.height);
         GUI.Label(area, _message,style);
     }
-  
+
+    void OnDisplayName(UpdateUserTitleDisplayNameResult result)
+    {
+        Debug.Log(result.DisplayName + " is your display name");
+    }
+
 }
