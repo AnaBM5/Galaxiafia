@@ -5,6 +5,7 @@ using System;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
@@ -28,7 +29,11 @@ public class ButtonManager : MonoBehaviour
     {
         xd.text = "solo disfruta";
     }
-
-   
+    
+    public void onclickSignOut()
+    {
+        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene(0);
+    }
  
 }

@@ -38,7 +38,6 @@ public class PlayfabLogin : MonoBehaviour
         Debug.Log("Congratulations, you made your first successful API call!");
         PlayerPrefs.SetString("EMAIL", userEmail);
         PlayerPrefs.SetString("PASSWORD", userPassword);
-        loginPanel.SetActive(false);
         SceneManager.LoadScene(1); 
     }
 
@@ -49,7 +48,6 @@ public class PlayfabLogin : MonoBehaviour
         PlayerPrefs.SetString("EMAIL", userEmail);
         PlayerPrefs.SetString("PASSWORD", userPassword);
         PlayFabClientAPI.UpdateUserTitleDisplayName(new UpdateUserTitleDisplayNameRequest{DisplayName = username}, OnDisplayName, OnLoginFailure);
-        loginPanel.SetActive(false);
         SceneManager.LoadScene(1); 
     }
     void OnDisplayName(UpdateUserTitleDisplayNameResult result)
@@ -64,6 +62,7 @@ public class PlayfabLogin : MonoBehaviour
     }
     private void OnRegisterFailure(PlayFabError error)
     {
+        SceneManager.LoadScene(0);
         Debug.LogError(error.GenerateErrorReport());
     }
 
