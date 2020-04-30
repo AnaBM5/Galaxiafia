@@ -326,6 +326,7 @@
           <e p="ChooseOption.cs" t="Include" />
           <e p="FBManager.cs" t="Include" />
           <e p="Leaderboard.cs" t="Include" />
+          <e p="LeaderBoardListing.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="playerScore.cs" t="Include" />
           <e p="PlayerText.cs" t="Include" />
