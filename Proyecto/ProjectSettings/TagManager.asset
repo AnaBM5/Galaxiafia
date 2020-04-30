@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RightOption
   - WrongOption
+  - CanvasShake
   layers:
   - Default
   - TransparentFX

@@ -17,6 +17,10 @@ public class ChooseOption : MonoBehaviour
     public TextMeshProUGUI scoreFinal;
     public static bool answered = false;
 
+
+    private AnimScript canvasAnimation;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +29,8 @@ public class ChooseOption : MonoBehaviour
         initialPosition = transform.position;        
         ShowLives.livesAmount = 3;
         ShowScore.scoreValue = 0;
+
+        canvasAnimation = GameObject.FindGameObjectWithTag("CanvasShake").GetComponent<AnimScript>();
     }
 
     // Update is called once per frame
@@ -65,8 +71,12 @@ public class ChooseOption : MonoBehaviour
 
     void WrongAnswer()
     {
+        canvasAnimation.canvasShake();
         ShowLives.livesAmount--; 
 	    answered = true;
+	    
+	    
+	    
 	    transform.position = initialPosition;       
         
         if (ShowLives.livesAmount <= 0)
