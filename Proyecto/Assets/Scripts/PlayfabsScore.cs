@@ -49,6 +49,18 @@ public class PlayfabsScore: MonoBehaviour
         foreach (var eachStat in result.Statistics)
             Debug.Log("Statistic (" + eachStat.StatisticName + "): " + eachStat.Value);
     }
+    
+    
+    void OnDisplayName(UpdateUserTitleDisplayNameResult result)
+    {
+        Debug.Log(result.DisplayName + " is your display name");
+    }
+
+
+    void OnError(PlayFabError error)
+    {
+        Debug.Log(error.GenerateErrorReport());
+    }
 
     #endregion
 }
