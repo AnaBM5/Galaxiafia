@@ -18,6 +18,7 @@ public class barTime : MonoBehaviour
     {
        
         LeanTween.scaleX(bar, 1, time).setOnComplete(doit);
+        
     }
     void Start()
     {
