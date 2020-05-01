@@ -13,7 +13,7 @@ public class PlayerText : MonoBehaviour
     public TextMeshProUGUI IncorrectText;
     private Vector2 rightAnswer;
     private Vector2 wrongAnswer;
-    private int[] data = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 };
+    private List<int> data = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 };
     public static string usada;
     public static string pregunta;
     public static string correcta;
@@ -24,9 +24,9 @@ public class PlayerText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int Nrandom = r.Next(0, data.Length);
+        int Nrandom = r.Next(0, data.Count());
         which = data[Nrandom];
-        data = data.Except(new int[] { Nrandom }).ToArray();
+        data.Remove(which);
         GetText();
     }
     public void GetText()
@@ -44,10 +44,9 @@ public class PlayerText : MonoBehaviour
     }
     public void NextButton()
     {
-        int Nrandom = r.Next(0, data.Length);
+        int Nrandom = r.Next(0, data.Count());
         which = data[Nrandom];
-        data = data.Except(new int[] { Nrandom }).ToArray();
-        GetText();
+        data.Remove(which);
         GetText();
         randomAnswer();
     }
