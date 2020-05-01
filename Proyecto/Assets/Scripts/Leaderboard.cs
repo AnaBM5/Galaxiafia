@@ -14,7 +14,7 @@ public class Leaderboard : MonoBehaviour
     void Start()
     {
         var requestLeaderboard = new GetLeaderboardRequest
-            {StartPosition = 0, StatisticName = "Score", MaxResultsCount = 10};
+            {StartPosition = 0, StatisticName = "Score", MaxResultsCount = 20};
         PlayFabClientAPI.GetLeaderboard(requestLeaderboard, OnGetLeaderboard, OnErrorLeaderboard );
         
     }
