@@ -15,7 +15,7 @@ public class PlayfabsScore: MonoBehaviour
    
     public int puntuacion;
     public static PlayfabController PFC;
-    
+    public GameObject animacion;
 
 
     #region Playerstats
@@ -23,11 +23,12 @@ public class PlayfabsScore: MonoBehaviour
     public void SetStats()
     {
         puntuacion = ShowScore.scoreValue ;
-        
+        animacion.SetActive(true);
         PlayFabClientAPI.UpdatePlayerStatistics( new UpdatePlayerStatisticsRequest {
                 // request.Statistics is a list, so multiple StatisticUpdate objects can be defined if required.
                 Statistics = new List<StatisticUpdate> {
                     new StatisticUpdate { StatisticName = "Score", Value = puntuacion },
+                    
                 }
             },
             result => { Debug.Log("User statistics updated"); },
