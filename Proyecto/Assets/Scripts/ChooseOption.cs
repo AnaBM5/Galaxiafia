@@ -16,6 +16,7 @@ public class ChooseOption : MonoBehaviour
     public TextMeshProUGUI Losetext;
     public TextMeshProUGUI scoreFinal;
     public static bool answered = false;
+    public static bool correct;
 
 
     private AnimScript canvasAnimation;
@@ -62,7 +63,9 @@ public class ChooseOption : MonoBehaviour
 
     void RightAnswer()
     {
-        ShowScore.scoreValue += 10;    
+        ShowScore.scoreValue += 10;
+        barTime.time += 10;
+        correct = true;        
 	    answered = true;
 	    transform.position = initialPosition;    
         nextQuestions = FindObjectOfType<PlayerText>();
@@ -74,6 +77,7 @@ public class ChooseOption : MonoBehaviour
         canvasAnimation.canvasShake();
         ShowLives.livesAmount--; 
 	    answered = true;
+        correct = false;
 	    
 	    
 	    
