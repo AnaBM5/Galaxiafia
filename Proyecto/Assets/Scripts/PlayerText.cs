@@ -4,7 +4,7 @@ using Proyecto26;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using System.Linq;
 
 public class PlayerText : MonoBehaviour
 {
@@ -13,6 +13,7 @@ public class PlayerText : MonoBehaviour
     public TextMeshProUGUI IncorrectText;
     private Vector2 rightAnswer;
     private Vector2 wrongAnswer;
+    private List<int> data = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 };
     public static string usada;
     public static string pregunta;
     public static string correcta;
@@ -23,8 +24,9 @@ public class PlayerText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        which = r.Next(1,32);
+        int Nrandom = r.Next(0, data.Count());
+        which = data[Nrandom];
+        data.Remove(which);
         GetText();
     }
     public void GetText()
@@ -42,7 +44,9 @@ public class PlayerText : MonoBehaviour
     }
     public void NextButton()
     {
-        which = r.Next(1, 32);
+        int Nrandom = r.Next(0, data.Count());
+        which = data[Nrandom];
+        data.Remove(which);
         GetText();
         randomAnswer();
     }

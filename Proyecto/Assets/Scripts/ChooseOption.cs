@@ -17,27 +17,38 @@ public class ChooseOption : MonoBehaviour
     public TextMeshProUGUI scoreFinal;
     public static bool answered = false;
     public static bool correct;
-
-
     private AnimScript canvasAnimation;
-    
+    public GameObject bar;
+    public static int time = 10;   
+    private LTDescr B;
+    private void doit()
+    {        
+        Losetext.text = "TIEMPO";
+        KillPlayer();
+    }
+    public void animedBar()
+    {
 
+        B = LeanTween.scaleX(bar, 1, time);
+
+
+    }
     // Start is called before the first frame update
     void Start()
     {
         nextQuestions = FindObjectOfType<PlayerText>();
         perdiste.SetActive(false);
-        initialPosition = transform.position;        
+        initialPosition = transform.position;
         ShowLives.livesAmount = 3;
         ShowScore.scoreValue = 0;
-
+        animedBar();
         canvasAnimation = GameObject.FindGameObjectWithTag("CanvasShake").GetComponent<AnimScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        correct = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -64,12 +75,14 @@ public class ChooseOption : MonoBehaviour
     void RightAnswer()
     {
         ShowScore.scoreValue += 10;
-        barTime.time += 10;
+        //barTime.time += 10;
         correct = true;        
 	    answered = true;
 	    transform.position = initialPosition;    
         nextQuestions = FindObjectOfType<PlayerText>();
         nextQuestions.NextButton();
+        B.reset();
+        B = LeanTween.scaleX(bar, 1, time).setOnComplete(doit);
     }
 
     void WrongAnswer()
@@ -78,10 +91,8 @@ public class ChooseOption : MonoBehaviour
         ShowLives.livesAmount--; 
 	    answered = true;
         correct = false;
-	    
-	    
-	    
-	    transform.position = initialPosition;       
+        B.setOnComplete(doit);
+        transform.position = initialPosition;       
         
         if (ShowLives.livesAmount <= 0)
         {

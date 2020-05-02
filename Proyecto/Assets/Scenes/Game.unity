@@ -821,6 +821,7 @@ MonoBehaviour:
   principal: {fileID: 1058168040}
   Losetext: {fileID: 73416063}
   scoreFinal: {fileID: 200017751}
+  bar: {fileID: 60533365}
 --- !u!1 &312504415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,6 +1595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bar: {fileID: 60533365}
+  GameOver: {fileID: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
