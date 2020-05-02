@@ -321,7 +321,6 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AnimScript.cs" t="Include" />
-          <e p="barTime.cs" t="Include" />
           <e p="ButtonManager.cs" t="Include" />
           <e p="CanvasToWorld.cs" t="Include" />
           <e p="ChooseOption.cs" t="Include" />
@@ -338,6 +337,7 @@
           <e p="ScrollScript.cs" t="Include" />
           <e p="ShowLives.cs" t="Include" />
           <e p="ShowScore.cs" t="Include" />
+          <e p="SpriteAnimator.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

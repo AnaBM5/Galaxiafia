@@ -9,6 +9,7 @@ public class ScrollScript : MonoBehaviour
     private float deathSpeed = -2f;
     Vector2 startPos;
     public float length = 10;
+	public bool loop;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,7 @@ public class ScrollScript : MonoBehaviour
     {
         float newPos = Mathf.Repeat(Time.time * scrollSpeed, length);
         transform.position = startPos + Vector2.up * newPos;
-        if(ShowLives.livesAmount<=0)
+        if(ShowLives.livesAmount<=0 && loop)
         {
             scrollSpeed = deathSpeed;
 

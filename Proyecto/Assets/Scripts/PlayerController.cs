@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     {
 	    if(!ChooseOption.answered){
             mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            transform.position = new Vector2(mousePosition.x, mousePosition.y);
+            transform.position = new Vector2(mousePosition.x, mousePosition.y - 1.2f);
 	    }
     }
 
