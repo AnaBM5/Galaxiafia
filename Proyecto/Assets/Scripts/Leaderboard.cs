@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine;
@@ -9,7 +10,7 @@ public class Leaderboard : MonoBehaviour
     public GameObject leaderboardPanel;
     public GameObject listingPrefab;
     public Transform listingContainer;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +43,7 @@ public class Leaderboard : MonoBehaviour
             LL.playerNameText.text = player.DisplayName;
             LL.playerScoreText.text = player.StatValue.ToString();
             Debug.Log(player.DisplayName + ": " + player.StatValue );
+            
         }
     }
 

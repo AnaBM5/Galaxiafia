@@ -5,12 +5,14 @@ using UnityEngine;
 using PlayFab;
 using UnityEngine.SceneManagement;
 using PlayFab.ClientModels;
+using TMPro;
 
 public class PlayfabLogin : MonoBehaviour
 {
     private string userEmail;
     private string userPassword;
-    private string username;
+    public string username;
+    public TextMeshProUGUI verifica;
     public GameObject loginPanel;
     
     
@@ -58,11 +60,12 @@ public class PlayfabLogin : MonoBehaviour
         var registerRequest = new RegisterPlayFabUserRequest{Email = userEmail, Password =  userPassword, Username = username};
         PlayFabClientAPI.RegisterPlayFabUser(registerRequest, OnRegisterSuccess, OnRegisterFailure);
         SceneManager.LoadScene("Welcome-login", LoadSceneMode.Single);
+        
     }
     private void OnRegisterFailure(PlayFabError error)
     {
-        SceneManager.LoadScene("Welcome-login", LoadSceneMode.Single);
         Debug.LogError(error.GenerateErrorReport());
+        
     }
 
     public void GetUserEmail(string emailIn)

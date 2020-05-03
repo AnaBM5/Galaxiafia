@@ -48,5 +48,6 @@ public class ButtonManager : MonoBehaviour
         PlayerPrefs.DeleteAll();
         SceneManager.LoadScene(0);
     }
+    
  
 }
