@@ -107,7 +107,7 @@ public class ChooseOption : MonoBehaviour
 
     public void KillPlayer()
     {
-        scoreFinal.text = "Puntuacion: " + ShowScore.scoreValue;
+        scoreFinal.text = "Puntuación: " + ShowScore.scoreValue;
         this.gameObject.SetActive(false);
         perdiste.SetActive(true);
         principal.SetActive(false);
