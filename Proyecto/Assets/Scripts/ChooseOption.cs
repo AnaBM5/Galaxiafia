@@ -19,8 +19,8 @@ public class ChooseOption : MonoBehaviour
     public static bool correct;
     private AnimScript canvasAnimation;
     public GameObject bar;
-    public static int time = 10;   
-    private LTDescr B;
+    private static int time = 120;   
+    
     private void doit()
     {        
         Losetext.text = "TIEMPO";
@@ -29,7 +29,7 @@ public class ChooseOption : MonoBehaviour
     public void animedBar()
     {
 
-        B = LeanTween.scaleX(bar, 1, time);
+        LeanTween.scaleX(bar, 1, time).setOnComplete(doit);
 
 
     }
@@ -81,8 +81,7 @@ public class ChooseOption : MonoBehaviour
 	    transform.position = initialPosition;    
         nextQuestions = FindObjectOfType<PlayerText>();
         nextQuestions.NextButton();
-        B.reset();
-        B = LeanTween.scaleX(bar, 1, time).setOnComplete(doit);
+        
     }
 
     void WrongAnswer()
@@ -91,7 +90,6 @@ public class ChooseOption : MonoBehaviour
         ShowLives.livesAmount--; 
 	    answered = true;
         correct = false;
-        B.setOnComplete(doit);
         transform.position = initialPosition;       
         
         if (ShowLives.livesAmount <= 0)
