@@ -1,23 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShowScore : MonoBehaviour
-{
-    public static int scoreValue = 0;
-    private TextMeshProUGUI score;
+public class LivesSprite : MonoBehaviour{
+
+    public Sprite[] corazones;
+
+    public void CambioVida(int pos)
+    {
+        this.GetComponent<Image>().sprite = corazones[pos];
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        score = GetComponent<TextMeshProUGUI>();
+        CambioVida(3);
     }
 
     // Update is called once per frame
     void Update()
     {
-        score.text = "Puntaje: \n" + scoreValue.ToString();
+        
     }
+
 }

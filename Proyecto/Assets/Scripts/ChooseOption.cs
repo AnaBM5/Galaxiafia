@@ -18,6 +18,7 @@ public class ChooseOption : MonoBehaviour
     public static bool answered = false;
     public static bool correct;
     private AnimScript canvasAnimation;
+    private LivesSprite livesSprite;
     public GameObject bar;
     private static int time = 120;   
     
@@ -43,6 +44,8 @@ public class ChooseOption : MonoBehaviour
         ShowScore.scoreValue = 0;
         animedBar();
         canvasAnimation = GameObject.FindGameObjectWithTag("CanvasShake").GetComponent<AnimScript>();
+        livesSprite = GameObject.FindObjectOfType<LivesSprite>();
+
     }
 
     // Update is called once per frame
@@ -74,6 +77,7 @@ public class ChooseOption : MonoBehaviour
 
     void RightAnswer()
     {
+        canvasAnimation.RightAnwer();
         ShowScore.scoreValue += 10;
         //barTime.time += 10;
         correct = true;        
@@ -90,7 +94,8 @@ public class ChooseOption : MonoBehaviour
         ShowLives.livesAmount--; 
 	    answered = true;
         correct = false;
-        transform.position = initialPosition;       
+        transform.position = initialPosition;      
+        livesSprite.CambioVida(ShowLives.livesAmount);
         
         if (ShowLives.livesAmount <= 0)
         {
