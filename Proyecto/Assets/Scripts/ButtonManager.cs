@@ -10,6 +10,14 @@ using UnityEngine.SceneManagement;
 public class ButtonManager : MonoBehaviour
 {
     public TextMeshProUGUI xd;
+    public void OnClicRegister()
+    {
+        SceneManager.LoadScene("Welcome-Login", LoadSceneMode.Single);
+    }
+    public void OnClickLogin()
+    {
+        SceneManager.LoadScene("login", LoadSceneMode.Single);
+    }
     public void onclickOnMouseUpGame()
     {
         
