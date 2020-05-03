@@ -18,6 +18,11 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene("login", LoadSceneMode.Single);
     }
+    
+    public void OnClickWelcome()
+    {
+        SceneManager.LoadScene("Welcome", LoadSceneMode.Single);
+    }
     public void onclickOnMouseUpGame()
     {
         

@@ -37,7 +37,7 @@ public class PlayfabLogin : MonoBehaviour
     {
         PlayerPrefs.SetString("EMAIL", userEmail);
         PlayerPrefs.SetString("PASSWORD", userPassword);
-        SceneManager.LoadScene(1); 
+        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
 
 
@@ -46,7 +46,7 @@ public class PlayfabLogin : MonoBehaviour
         PlayerPrefs.SetString("EMAIL", userEmail);
         PlayerPrefs.SetString("PASSWORD", userPassword);
         PlayFabClientAPI.UpdateUserTitleDisplayName(new UpdateUserTitleDisplayNameRequest{DisplayName = username}, OnDisplayName, OnLoginFailure);
-        SceneManager.LoadScene(1); 
+        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
     void OnDisplayName(UpdateUserTitleDisplayNameResult result)
     {
@@ -57,10 +57,11 @@ public class PlayfabLogin : MonoBehaviour
     {
         var registerRequest = new RegisterPlayFabUserRequest{Email = userEmail, Password =  userPassword, Username = username};
         PlayFabClientAPI.RegisterPlayFabUser(registerRequest, OnRegisterSuccess, OnRegisterFailure);
+        SceneManager.LoadScene("Welcome-login", LoadSceneMode.Single);
     }
     private void OnRegisterFailure(PlayFabError error)
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Welcome-login", LoadSceneMode.Single);
         Debug.LogError(error.GenerateErrorReport());
     }
 
