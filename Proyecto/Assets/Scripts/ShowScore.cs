@@ -18,6 +18,6 @@ public class ShowScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score.text = "Puntuación: " + scoreValue.ToString();
+        score.text = "Puntaje: " + scoreValue.ToString();
     }
 }
