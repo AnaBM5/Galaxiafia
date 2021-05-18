@@ -1,4 +1,4 @@
-# ProyectoIntegrador-2020-1
+# GALAXIAFÍA
 
 Ana Beatriz Mojica - 
 Germán Ricardo Morales - 
